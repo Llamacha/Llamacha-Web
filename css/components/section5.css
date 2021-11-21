@@ -1,0 +1,45 @@
+.section5 {
+  background-color: var(--purple);
+  padding-bottom: 8em;
+}
+
+.section5 h1{
+  color: var(--light-blue);
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.section5 .profile{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section5 .profile{
+  text-align: center;
+  color: var(--white);
+}
+
+.section5 .profile span{
+  color: var(--light-blue);
+}
+
+@media only screen and (max-width: 1280px) {
+  .section5 .profile p{
+    font-size: 20px;
+  }
+
+  .section5 .profile img {
+    max-width: 175px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .section5 .profile{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .section5 .profile > div{
+    margin: 1em 2em;
+  }
+}

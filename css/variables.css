@@ -1,0 +1,15 @@
+:root {
+  /* Colors */
+  --orange: #FFC43C;
+  --purple: #6A48FF;
+  --blue: #7B95F2;
+  --pink: #DB82F5;
+  --light-blue: #00C3E7;
+  --red: #E84187;
+  --white: #FFFFFF;
+  --dark: #000000;
+
+  /* Containers */
+  --container: 1200px;
+  --container-lg: 920px;
+}

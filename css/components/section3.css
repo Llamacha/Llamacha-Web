@@ -1,0 +1,37 @@
+.section3{
+  background-color: var(--pink);
+}
+
+.section3 content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section3 h1{
+  color: var(--purple);
+  margin-bottom: 1.5em;
+}
+
+.section3 p {
+  max-width: 452px;
+  color: var(--white);
+}
+
+@media only screen and (max-width: 992px) {
+  .section3 content{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section3 p {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section3 content img {
+    width: 100%;
+    max-width: 400px;
+  }
+}

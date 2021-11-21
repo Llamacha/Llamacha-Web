@@ -1,0 +1,95 @@
+footer {
+  background-color: var(--dark);
+  color: var(--white);
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+footer content > div {
+  display: flex;
+}
+
+footer a, footer p {
+  color: var(--white);
+  font-size: 16px;
+  font-family: 'overpass', Courier, monospace;
+}
+
+footer .me {
+  width: 31%;
+}
+
+footer .follow, footer .about, footer .contact {
+  width: 23%;
+}
+
+footer .me img{
+  margin-bottom: 2em;
+}
+
+footer .me p{
+  font-size: 14px;
+  max-width: 165px;
+  line-height: 20px;
+}
+
+footer .follow a:hover {
+  text-decoration: none;
+}
+
+footer .follow a img {
+  margin-right: .5em;
+  margin-bottom: .5em;
+}
+
+footer content > div > div h3{
+  margin-bottom: 1.5em;
+  margin-top: 2em;
+  font-size: 17px;
+  font-family: 'sofia-pro', Courier, monospace;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 1em;
+}
+
+footer p.copyright{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 992px) {
+  footer content > div {
+    flex-wrap: wrap;
+  }
+
+  
+  footer .me {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+
+  footer .me img {
+    margin-right: 2em;
+    margin-bottom: 0;
+  }
+
+  footer .follow, footer .about, footer .contact {
+    width: 33.3%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  footer .follow, footer .about, footer .contact {
+    width: 100%;
+    text-align: center;
+  }
+}

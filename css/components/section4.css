@@ -1,0 +1,39 @@
+.section4{
+  background-color: var(--blue);
+}
+
+.section4 content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section4 h1{
+  color: var(--purple);
+  margin-bottom: 1.5em;
+  max-width: 370px;
+}
+
+.section4 p {
+  max-width: 370px;
+  color: var(--white);
+}
+
+@media only screen and (max-width: 992px) {
+  .section4 content{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section4 p {
+    max-width: 500px;
+    margin-bottom: 1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section4 content img {
+    width: 100%;
+    max-width: 400px;
+  }
+}

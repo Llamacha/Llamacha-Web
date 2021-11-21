@@ -1,0 +1,91 @@
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: var(--white);
+  color: var(--red);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+  position: relative;
+}
+
+.nav-links{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.nav-links a{
+  color: inherit;
+  font-size: 24px;
+  margin: 0 1.5em;
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+}
+
+.nav-right > a {
+  margin-right: 2em;
+}
+
+.nav-right .languages{
+  display: flex;
+}
+
+.nav-right .languages a {
+  font-size: 20px;
+  color: var(--purple);
+  font-family: poppins-300, sans-serif;
+}
+
+.nav-right .languages a.active {
+  font-family: poppins-500, sans-serif;
+}
+
+.nav-right .languages .separator{
+  border-right: 2px var(--purple) solid;
+  height: 21px;
+  margin-left: 7px;
+  margin-right: 7px;  
+}
+
+@media only screen and (max-width: 1280px) {
+  .nav-links a{
+    font-size: 18px;
+    margin: 0 .5em;
+  }
+
+  .nav-right > a {
+    margin-right: 1em;
+  }
+
+  .nav-right .languages a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-links a{
+    font-size: 16px;
+    margin: 0 .5em;
+  }
+
+  .nav-right .languages a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .nav-links{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  nav {
+    padding: 0 1em;
+  }
+}

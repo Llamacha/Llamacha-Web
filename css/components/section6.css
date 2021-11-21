@@ -1,0 +1,66 @@
+.section6 .projects {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.section6 h1{
+  color: var(--purple);
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.section6 .projects > div{
+  width: calc(25% - 25px);
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.section6 .projects > div img{
+  margin-bottom: 1em;
+}
+
+.section6 .projects > div p{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.section6 .projects > div span {
+  color: var(--light-blue);
+  display: block;
+  font-family: 'poppins-700', Courier, monospace;
+}
+
+.section6 h2{
+  margin-top: 3em;
+  color: var(--light-blue);
+}
+
+.section6 .allies {
+  margin-top: 4em;
+  display: inline-flex;
+  gap: 2em 5em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1280px) {
+  .section6 .projects > div img{
+    max-width: 150px;
+  }
+
+  .section6 .projects > div p{
+    font-size: 20px;
+  }
+
+  .section6 .allies img{
+    max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .section6 .projects > div{
+    width: 250px;
+  }
+}

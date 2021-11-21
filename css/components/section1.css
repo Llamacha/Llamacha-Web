@@ -1,0 +1,37 @@
+.section1{
+  background-color: var(--red);
+}
+
+.section1 content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section1 h1{
+  max-width: 380px;
+  color: var(--orange);
+}
+
+.section1 p {
+  max-width: 420px;
+  color: var(--white);
+}
+
+@media only screen and (max-width: 992px) {
+  .section1 content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section1 p{
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section1 content img {
+    width: 100%;
+    max-width: 400px;
+  }
+}
