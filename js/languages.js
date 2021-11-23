@@ -72,11 +72,11 @@ const languages = {
     en: 'OUR ALLIES'
   },
   'Massive audio collector': {
-    es: 'Recolector masivo de audio',
+    es: 'Recolector masivo de audios',
     en: 'Massive audio collector'
   },
   'Quechua audio recognizer': {
-    es: 'Reconocedor de audio en quechua',
+    es: 'Reconocedor automático del habla',
     en: 'Quechua audio recognizer'
   },
   'Text to Speech': {
@@ -84,19 +84,19 @@ const languages = {
     en: 'Text to Speech'
   },
   'Bert language model': {
-    es: 'Modelo de lenguaje Bert',
+    es: 'Modelos de lenguajes basado en BERT',
     en: 'Bert language model'
   },
   'Model and corpus for NER': {
-    es: 'Modelo y corpus para NER',
+    es: 'Modelos Fine-tuning en tareas de NLP',
     en: 'Model and corpus for NER'
   },
   'Quechua wordnet': {
-    es: 'Wordnet de quechua',
+    es: 'Diccionarios digitales y Wordnets',
     en: 'Quechua wordnet'
   },
   'Largest corpus of Quechua and Aymara': {
-    es: 'Mayor corpus de quechua y aymara',
+    es: 'Recolección de corpus monolingües y paralelos',
     en: 'Largest corpus of Quechua and Aymara'
   },
   'DO YOU WANT TO SUPPORT US?': {
